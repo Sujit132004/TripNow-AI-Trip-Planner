@@ -195,7 +195,7 @@ function CreateTrip() {
         </Button>
       </div>
 
-      <Dialog open={openDialog} >
+      <Dialog open={openDialog}  onClose={() => setOpenDialog(false)}  >
         <DialogContent>
           <DialogHeader>
             <DialogDescription>
